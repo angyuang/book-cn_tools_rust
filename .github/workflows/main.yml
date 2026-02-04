@@ -3,7 +3,7 @@ on: [push, pull_request]
 
 jobs:
   test:
-    name: Run tests
+    name: Run tests1
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
